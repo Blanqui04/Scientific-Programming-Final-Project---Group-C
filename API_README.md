@@ -84,7 +84,7 @@ Testing procedure:
 
 ## Notes ⚠️
 - The KNN model was trained using cleaned data.
-- Feature order is enforced during interface to match the training phase.
+- The feature order is enforced to match the training phase.
 - Class probabilities are derived from the proportion of nearest neighbors.
 - Extreme probability values (0 or 1) may occur due to the nature of KNN.
 
