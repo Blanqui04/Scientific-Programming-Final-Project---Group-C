@@ -5,6 +5,8 @@ The API allows users to input clinical features extracted from medical data and 
 - the predicted diagnosis (malignant or benign)
 - the associated class probabilities
 
+The FastAPI implementation is located in the `api` folder, with the main application script named `main.py`.
+
 ## 📋 Table of contents
 1. [Requirements](#requirements)
 2. [Running the API](running-the-api)
