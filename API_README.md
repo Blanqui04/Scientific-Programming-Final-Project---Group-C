@@ -9,11 +9,11 @@ The FastAPI implementation is located in the `api` folder, with the main applica
 
 ## 📋 Table of contents
 1. [Requirements](#requirements)
-2. [Running the API](running-the-api)
-3. [API documentation (Swagger)](api-documentation-swagger)
-4. [API endpoint](api-endpoint)
-5. [Testing the API](testing-the-api)
-6. [Notes](notes)
+2. [Running the API](#running-the-api)
+3. [API documentation (Swagger)](#api-documentation-swagger)
+4. [API endpoint](#api-endpoint)
+5. [Testing the API](#testing-the-api)
+6. [Notes](#notes)
 
 ## 🛠️ Requirements
 
