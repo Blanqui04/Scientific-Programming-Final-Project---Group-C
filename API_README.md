@@ -1,4 +1,4 @@
-# 🔬 Breast Cancer Diagnosis API
+# Breast Cancer Diagnosis API 🔬
 
 This repository contains a **REST API** built with **FastAPI** that exposes a trained **K-Nearest Neighbors (KNN)** model for breast cancer diagnosis.
 The API allows users to input clinical features extracted from medical data and returns:
@@ -7,15 +7,15 @@ The API allows users to input clinical features extracted from medical data and 
 
 The FastAPI implementation is located in the `api` folder, with the main application script named `main.py`.
 
-## 📋 Table of contents
-1. [Requirements](#requirements)
-2. [Running the API](#running-the-api)
-3. [API documentation (Swagger)](#api-documentation-swagger)
-4. [API endpoint](#api-endpoint)
-5. [Testing the API](#testing-the-api)
-6. [Notes](#notes)
+## Table of contents 📋
+1. [Requirements](#requirements-)
+2. [Running the API](#running-the-api-)
+3. [API documentation (Swagger)](#api-documentation-swagger-)
+4. [API endpoint](#api-endpoint-)
+5. [Testing the API](#testing-the-api-)
+6. [Notes](#notes-)
 
-## 🛠️ Requirements
+## Requirements 🛠️
 
 Make sure you have Python 3.9 or later installed.
 Install the required dependencies with:
@@ -30,7 +30,7 @@ Main dependences:
 - pandas
 - joblib
 
-## 🚀 Running the API
+## Running the API 🚀
 From the root directory of the project, run:
 
 ```bash
@@ -39,7 +39,7 @@ uvicorn api.main:app --reload
 If the API starts correctly, you should see:
 Uvicorn running on http://127.0.0.1:8000
 
-## 📖 API documentation (Swagger)
+## API documentation (Swagger) 📖
 FastAPI automatically generates interactive documentation.
 To acess it, open your browser and go to: http://127.0.0.1:8000/docs
 
@@ -48,7 +48,7 @@ From there, you can:
 - fill in feature values
 - execute predictions directly from the browser
 
-## 🔌 API endpoint
+## API endpoint 🔌
 ### `POST /predict`
 This endpoint predicts breast cancer diagnosis based on clinical features.
 **Input**
@@ -72,7 +72,7 @@ Example response:
   "probability_benign": 0.0  
   
 }
-## 🎯 Testing the API
+## Testing the API 🎯
 The API was tested manually using the Swagger interface.
 
 Testing procedure:
@@ -82,7 +82,7 @@ Testing procedure:
 4. Fill in the feature values.
 5. Execute the request and verify the returned prediction and probabilities.
 
-## ⚠️ Notes
+## Notes ⚠️
 - The KNN model was trained using cleaned data.
 - Feature order is enforced during interface to match the training phase.
 - Class probabilities are derived from the proportion of nearest neighbors.
