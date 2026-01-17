@@ -1,0 +1,7 @@
+# Files to ignore and don't copy into the container
+*.pyo
+*.pyd
+.env
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
